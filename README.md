@@ -8,4 +8,4 @@ this is a server to show name from query with testing method like:
 
 
 ## the website link:
-   - ![click here] (https://basic-express-server-8g1v.onrender.com/)
+   - [click here] (https://basic-express-server-8g1v.onrender.com/)
