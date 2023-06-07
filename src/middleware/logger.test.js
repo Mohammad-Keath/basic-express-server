@@ -6,9 +6,7 @@ describe("logger middleware testing ", () => {
     let res = {};
     let next = jest.fn();
     beforeEach(() => {
-        consoleSpy = jest.spyOn(console, "log").mockImplementation(() => {
-            console.info("message");
-        });
+        consoleSpy = jest.spyOn(console, "log")
     });
 
     test('it\'s logging things', () => {
@@ -20,7 +18,4 @@ describe("logger middleware testing ", () => {
         expect(next).toHaveBeenCalled();
     });
 
-    afterEach(() => {
-        consoleSpy.mockRestore();
-    });
 })
